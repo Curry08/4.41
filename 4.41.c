@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&lung);
     printf("\n");
     for(int i=0 ; i<lung ; i++){
-        for (int j=0 ; j<lung; j++){
+        for(int j=0 ; j<lung; j++){
             if(i==lung-1 || j==0 || j==i){
                 printf("*  ");
             }
